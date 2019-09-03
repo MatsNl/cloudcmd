@@ -1,5 +1,4 @@
-FROM node
-MAINTAINER Coderaiser
+FROM arm32v7/node:8.16.1-onbuild
 
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
